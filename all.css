@@ -1,0 +1,372 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(229, 229, 229);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    background-color: #FAF5FF !important;
+    width:80%;
+    height:auto;
+}
+h1,h2,h3,h4,h5,h6,a,p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+.first-info-bar{
+    display: flex;
+    justify-content:space-between;
+    height:50px;
+    padding:50px 0px;
+    width:65%;
+    margin:15px;
+}
+.for-flex{
+    display: flex;
+    align-items: center;
+}
+.short-name-icon{
+    font-size:20px;
+    color:#C728B7;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #fff;
+    height:40px;
+    width:35px;
+    padding:5px 10px;
+    font-style: normal;
+    border-radius:5px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topName_FBar{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.topName_FBar p{
+    font-size: 12px;
+    font-weight: 300;
+}
+.horizontal-dividing-line{
+    height:40px;
+    width: 2px;
+    background-color: rgb(218, 218, 218);
+    margin: 0px 30px 0px 20px;
+}
+.editInputFor_InfoBar{
+    display: flex;
+    position: relative;
+}
+.editInputFor_InfoBar input{
+    width:250px;
+    min-width:210px;
+    border:0px;
+    border-radius:5px;
+    padding:0px 50px;
+    height:36px;
+    margin-right:30px;
+    
+}   
+.enterInput{
+    background-color: #9139C4;
+    color: #FAF5FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:5px;
+    height:26px;
+    margin-top:5px;
+    padding:5px 2px;
+    position: absolute;
+    margin-left:10px;
+}
+.enterInput2{
+    right:35px;
+}
+.notiBell{
+    width:40px;
+    height:35px;
+    background-color: #fff;
+    padding:5px 10px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+/*main-sec */
+.main-sec{
+    display: flex;
+}
+
+
+
+/* student Rectangle */
+
+.students_rectangle{
+    background-color: rgb(255, 255, 255);
+    border-radius:5px;
+    margin:15px;
+    padding:50px;
+    width:65%;
+}
+.SR_header{
+    width:100%;
+    height:50px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    color: rgb(158, 154, 154);
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+.studentTop_title{
+    display: flex;
+    justify-content: space-between;
+    height:40px;
+    align-items: center;
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+.studentTop_title h4{
+    color:rgb(179, 179, 179);
+    font-size:15px;
+    font-weight: normal;
+}
+/* each student */
+
+.eachStudent{
+    display: flex;
+    justify-content: space-between;
+    height:100px;
+    align-items: center;
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+.imag_rating{
+    display: flex;
+    align-items: center;
+}
+.imag_rating img{
+    width:50px;
+    height:50px;
+    border-radius:40%;
+    margin-right:20px;
+}
+.imag_rating h4{
+    color: rgb(146, 146, 146);
+}
+.imag_rating h4 i{
+    font-size:17px;
+    
+}   
+.imag_rating .mark_str{
+    color: #9139C4;
+}
+.loc_exp h3{
+    font-size:17px;
+    color: rgb(146, 146, 146);
+}
+.loc_exp h5{
+    font-size:12px;
+    font-weight:300;
+    color: rgb(146, 146, 146);
+}
+.loc_exp h5 img, .loc_exp h3 img{
+    width:15px;
+    height:15px;
+}
+.subjects_class{
+    display: flex;
+}
+.subjects_class h5{
+    background-color: rgb(242, 233, 251);
+    color: #9139C4;
+    border-radius:3px;
+    padding:5px;
+    margin:2px;
+    transition:.3s;
+}
+.action_plus h2{
+    background-color: rgb(242, 233, 251);
+    color: #9139C4;
+    border-radius:3px;
+    width:35px;
+    height:35px;
+    margin:2px;
+    padding: 0px;
+    display: flex;justify-content: center;
+    align-items: center;
+    transition:.3s;
+    cursor: pointer;
+}
+.action_plus h2:hover,.subjects_class h5:hover{
+    background-color: rgb(234, 212, 255);
+}
+
+
+
+
+
+
+
+
+
+/* forMyProfile */
+.forMyProfile{
+    width:30%;
+    padding:20px;
+    background-color: #fff;
+    border-radius:15px;
+    margin-top:-100px;
+}
+.MP-top_bar{
+    display: flex;
+    justify-content: space-between;
+    height:50px;
+    align-items: center;
+}
+.MP-top_bar h3{
+    font-size:18px;
+}
+.MP-top_bar a{
+    width: 80px;
+    height:30px;
+    background-color: #9139C4;
+    text-decoration: none;
+    border-radius:5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight:600;
+    color: #fff;
+    font-size:15px;
+    padding:10px;
+}
+.MP-pic{
+    position: relative;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:30px;
+    flex-flow: column;
+
+}
+.MP-pic div{
+    position: relative;
+}
+.MP-mainPic{
+    width:100px;
+    height:100px;
+    border-radius:20px;
+}
+.MP-subPic{
+    position: absolute;
+    top:-3px;
+    background-color: #9139C4;
+    right:-3px;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    color:#fff;
+    font-size:13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.MP-stu_name{
+    margin-top:20px;
+    word-spacing:10px;
+}
+.listing{
+    margin-top:40px;
+}
+.listing h3{
+    height:30px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size:15px;
+    height:60px;
+    color:rgb(193, 182, 204);
+    font-weight:400;
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+.listing h3 img{
+    margin-right:20px;
+}
+.editLinks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+.changePass,.editProfile{
+    text-decoration: none;
+    font-size:16px;
+    font-weight:600;
+    color: #9139C4;
+    margin-top:30px;
+}
+.editProfile{
+    color:#fff;
+    background-color: #9139C4;
+    width:80%;
+    height:35px;
+    border-radius:5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition:.5s;
+}
+.editProfile:hover{
+    background-color: rgb(179, 103, 223);
+}
+.forSchoolVisibility{
+    background-color: #FAF5FF;
+    border-radius:5px;
+    border:1px solid rgba(179, 103, 223, 0);;
+    margin:10px;
+    margin-top:40px;
+    margin-bottom:20px;
+    display: flex;
+    justify-content: space-evenly;
+    transition:.3s;
+}
+.forSchoolVisibility:hover{
+    border:1px solid rgb(179, 103, 223);
+}
+.atsImg{
+    width:30px;
+}
+.addToSchool{
+    width:60%;
+}
+.addToSchool h4{
+    margin:20px 20px;
+    color: rgb(163, 163, 163);
+}
+
+.addToSchool p{
+    margin:20px 10px;
+    color: rgb(163, 163, 163);
+    font-size:13px;
+}
+.addToSchool button{
+    border:none;
+    background-color: rgb(226, 207, 238);
+    color:rgb(179, 103, 223);
+    padding:5px 10px;
+    border-radius:3px;
+    margin-top:20px;
+    cursor: pointer;
+}
