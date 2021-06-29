@@ -183,10 +183,10 @@ h1,h2,h3,h4,h5,h6,a,p{
     width:15px;
     height:15px;
 }
-.subjects_class{
+.Qualifications,.subjects_class{
     display: flex;
 }
-.subjects_class h5{
+.Qualifications p,.subjects_class h5{
     background-color: rgb(242, 233, 251);
     color: #9139C4;
     border-radius:3px;
@@ -361,7 +361,17 @@ h1,h2,h3,h4,h5,h6,a,p{
     color: rgb(163, 163, 163);
     font-size:13px;
 }
-.addToSchool button{
+.softBtn,.thickBtn{
+    border:none;
+    width:100px;
+    height:35px;
+    background-color: #9139C4;
+    border-radius:5px;
+    color:#fff;
+    font-size:12px;
+    
+}
+.addToSchool button, .softBtn{
     border:none;
     background-color: rgb(226, 207, 238);
     color:rgb(179, 103, 223);
@@ -369,4 +379,58 @@ h1,h2,h3,h4,h5,h6,a,p{
     border-radius:3px;
     margin-top:20px;
     cursor: pointer;
+}
+
+.centt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* all modal body */
+.modalBody{
+    width:550px;
+    background-color: #fff;
+    border-radius:15px;padding:30px;
+}
+.MDB-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.MDB-title h3{
+    font-size:18px;
+    font-weight: 600;
+}
+.MDB-title p i{
+    font-size:15px;
+    font-weight:lighter !important;
+    color: #C728B7;
+    background-color: rgb(246, 194, 241);
+    width:25px;
+    border-radius:50px;
+    height:25px;
+}
+
+.noBorderBottom{
+    border:none;
+}
+.Fadetitle{
+    color: rgb(180, 178, 178);
+    font-size:15px;
+    margin:10px 5px;
+}
+.Qualifications p{
+    background-color:transparent;
+    border:1px solid rgb(216, 214, 218);
+    color:rgb(216, 214, 218);
+}
+.connectDetails p{
+    display: flex;
+    color: rgb(148, 146, 146);
+    align-items: center;
+}
+.connectDetails img{
+    padding:0px 7px;
 }
