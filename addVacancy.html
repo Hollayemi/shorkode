@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons"rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="fonts/VisueltPro-Black.ttf">
+    <link rel="stylesheet" href="fonts/VisueltPro-BlackItalic.ttf">
+    <link rel="stylesheet" href="fonts/VisueltPro-Bold.ttf">
+    <link rel="stylesheet" href="all.css">
+
+    <!-- cdns -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.jquery.min.js"></script>
+    <link href="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.min.css" rel="stylesheet"/>
+
+    <title>Shortkode</title>
+</head>
+<body>
+
+        <div class="modalBody">
+            <div class="titleBody">
+                <div class="MDB-title centerTitle">
+                    <h3>Add vacancy</h3>
+                    <p><i class="material-icons centt">close</i></i></p>
+                </div>
+            </div>
+            
+                <form action="" method="post">
+                    <div class="myLegend">
+                        <p>Position name</p>
+                        <input type="text" placeholder="Secondary school teacher">
+                    </div>
+
+                    <div class="FlexMyLegend">
+                        <div class="eachFlexMyLegend">
+                            <div class="myLegend">
+                                <p class="spaP">Categories</p>
+                                <select data-placeholder="Teacher" multiple class="chosen-select" name="test">
+                                    <option value=""></option>
+                                    <option>Teacher</option>
+                                    <option>Gateman</option>
+                                    <option>Driver</option>
+                                    <option>Vendor</option>
+                                    <option>Cleaner</option>
+                                    <option>Principal</option>
+                                </select>
+                            </div>
+                        </div>
+
+
+                        <div class="eachFlexMyLegend">
+                            <div class="myLegend">
+                                <p class="spaP">No of vacancy</p>
+                                <select data-placeholder="4" multiple class="chosen-select" name="test">
+                                    <option value=""></option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                </select>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="myLegend">
+                        <p class="spaP">Subjects</p>
+                        <select data-placeholder="Phy" multiple class="chosen-select" name="test">
+                            <option value=""></option>
+                            <option>Phy</option>
+                            <option>Bio</option>
+                            <option>Chm</option>
+                            <option>Geo</option>
+                            <option>Agr</option>
+                            <option>Eng</option>
+                            <option>Mat</option>
+                        </select>
+                    </div>
+
+
+
+                    <div class="myLegend">
+                        <p class="spaP">Qualifications</p>
+                        <select data-placeholder="HND" multiple class="chosen-select" name="test">
+                            <option value=""></option>
+                            <option>HND</option>
+                            <option>ND</option>
+                            <option>BSC</option>
+                            <option>SSCE</option>
+                        </select>
+                    </div>
+
+                    <div class="myLegend">
+                        <p>Salary Range</p>
+                        <input type="text" placeholder="220,000 - 345,000">
+                    </div>
+                
+                    
+
+                </form>
+
+
+                <div class="action_plus">
+                    <button class="thickBtn longBtn">Continue</button>
+                </div>
+            </div>
+        </div>
+    
+
+
+    <script>
+        $(".chosen-select").chosen({
+            no_results_text: "Oops, nothing found!"
+        })
+    </script>
+</body>
+
+</html>
